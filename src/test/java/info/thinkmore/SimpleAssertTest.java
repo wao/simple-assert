@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class AssertTest {
+public class SimpleAssertTest {
 	@Test(expected= info.thinkmore.Assert.AssertError.class)
 	public void testAssertTrueFail() {
 		info.thinkmore.Assert.assertTrue(false);

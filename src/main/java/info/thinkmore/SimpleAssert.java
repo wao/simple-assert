@@ -2,7 +2,7 @@ package info.thinkmore;
 
 import java.io.PrintStream;
 
-public class Assert {
+public class SimpleAssert {
     static boolean enableAssert = true;
     public static void enableAssert(){
         enableAssert = true;
